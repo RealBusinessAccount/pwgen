@@ -1,4 +1,4 @@
-// pwgen - A simple command line password generator.
+// mkpass - A simple command line password generator.
 // Written by Anachronaut
 // 1/25/2024
 
