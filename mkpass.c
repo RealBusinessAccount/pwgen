@@ -39,7 +39,7 @@ int processArgs(int args, char *argv[], int *length, unsigned int *settings){
                         return 1;
                     }
                 } else if(chr[q] == 'h' || chr[q] == 'H') {
-                    printf("pwgen - simple command line password generator\n\nUsage: pwgen -<options> <length>\n\nOptions:\n  -a Include capital and lowercase letters.\n  -n Include numerals.\n  -p Include punctuation characters.\n  -e Include extended characters. (additional symbols)\n\nWith no options specified, it generates 16 characters using all character sets.\n");
+                    printf("mkpass - simple command line password generator\n\nUsage: mkpass -<options> <length>\n\nOptions:\n  -a Include capital and lowercase letters.\n  -n Include numerals.\n  -p Include punctuation characters.\n  -e Include extended characters. (additional symbols)\n\nWith no options specified, it generates 16 characters using all character sets.\n");
                     return 1;
                 } else {
                     printf("Unknown option: '-%c'. Use -h for help.\n", chr[q]);
