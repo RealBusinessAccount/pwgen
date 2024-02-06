@@ -108,7 +108,7 @@ int generateString(int length, char characterSet[]) {
 
 int main(int args, char *argv[]) {
     int length = 16;
-    char characterSet[76];  // 76, one more than the maximum number of characters that can be in the array to account for the null terminator.
+    char characterSet[76] = {0};  // 76, one more than the maximum number of characters that can be in the array to account for the null terminator.
     unsigned int settings = 0;
 
     if ( processArgs(args, argv, &length, &settings) ) {
