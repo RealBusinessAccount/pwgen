@@ -52,7 +52,7 @@ int processArgs(int args, char *argv[], int *length, unsigned int *settings, int
                         return 1;
                     }
                 } else if(chr[q] == 'h' || chr[q] == 'H') {
-                    printf("mkpass - simple command line password generator\n\nUsage: mkpass -<options> <length>\n\nOptions:\n  -a Include lowercase letters.\n  -A include uppercase letters.\n  -n Include numerals.\n  -p Include symbol characters.\n  -b Include bracket characters.\n\nWith no options specified, it generates 16 characters using all character sets.\n");
+                    printf("mkpass - simple command line password generator\n\nUsage: mkpass -<options> <length>\n\nOptions:\n  -a Include lowercase letters.\n  -A include uppercase letters.\n  -n Include numerals.\n  -s Include symbol characters.\n  -b Include bracket characters.\n\nWith no options specified, it generates 16 characters using all character sets.\n");
                     return 1;
                 } else {
                     printf("Unknown option: '-%c'. Use -h for help.\n", chr[q]);
